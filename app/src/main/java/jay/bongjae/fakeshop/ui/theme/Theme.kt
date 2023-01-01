@@ -1,4 +1,4 @@
-package jay.bongjae.fakeShop.ui.theme
+package jay.bongjae.fakeshop.ui.theme
 
 import android.app.Activity
 import android.os.Build
