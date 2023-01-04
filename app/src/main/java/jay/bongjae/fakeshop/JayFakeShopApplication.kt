@@ -1,4 +1,4 @@
-package jay.bongjae.fakeShop
+package jay.bongjae.fakeshop
 
 import android.app.Application
 
