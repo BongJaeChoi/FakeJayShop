@@ -41,6 +41,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:common"))
     // Arch Components
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
@@ -54,4 +55,10 @@ dependencies {
     implementation(libs.okhttp.logging)
     implementation(libs.retrofit.core)
     implementation(libs.retrofit.kotlin.serialization)
+
+    // Local tests: jUnit, coroutines, Android runner
+    testImplementation(libs.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.okhttp.mock)
+
 }
