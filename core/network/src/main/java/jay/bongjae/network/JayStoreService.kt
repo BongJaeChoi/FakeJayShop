@@ -1,5 +1,8 @@
 package jay.bongjae.network
 
+import jay.bongjae.network.model.Product
+import retrofit2.http.GET
+
 //https://fakestoreapi.com/
 interface JayStoreService {
     /**
@@ -24,4 +27,6 @@ interface JayStoreService {
     DELETE
     /products/1
      */
+    @GET("products")
+    suspend fun getProducts(): List<Product>
 }
