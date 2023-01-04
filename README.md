@@ -10,6 +10,7 @@
   - Clean Architecture 기반
   - https://developer.android.com/topic/architecture?hl=ko
 - core 폴더 기반 모듈화
+  - https://github.com/android/nowinandroid/blob/main/docs/ModularizationLearningJourney.md#modularization-strategy
 - Networking - Retrofit
 - DI - hilt
 - UI - Compose First
