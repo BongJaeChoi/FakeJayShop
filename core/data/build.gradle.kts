@@ -35,6 +35,9 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:common"))
+    implementation(project(":core:model"))
+
     // Arch Components
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)

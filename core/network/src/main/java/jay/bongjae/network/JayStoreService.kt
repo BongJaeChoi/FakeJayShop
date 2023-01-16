@@ -1,6 +1,6 @@
 package jay.bongjae.network
 
-import jay.bongjae.network.model.Product
+import jay.bongjae.network.model.NetworkProduct
 import retrofit2.http.GET
 
 //https://fakestoreapi.com/
@@ -28,5 +28,5 @@ interface JayStoreService {
     /products/1
      */
     @GET("products")
-    suspend fun getProducts(): List<Product>
+    suspend fun getProducts(): List<NetworkProduct>
 }
