@@ -10,8 +10,9 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
+import javax.inject.Inject
 
-class ProductRepositoryImpl(
+class ProductRepositoryImpl @Inject constructor(
     @Dispatcher(JayFakeShopDispatchers.IO) private val ioDispatcher: CoroutineDispatcher,
     private val jayFakeShopNetworkDataSource: JayFakeShopNetworkDataSource
 ) : ProductRepository {
