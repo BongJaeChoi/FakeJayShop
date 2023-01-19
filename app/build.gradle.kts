@@ -53,10 +53,14 @@ android {
 
 dependencies {
     implementation(project(":core:domain"))
+    implementation(project(":core:common"))
+    implementation(project(":core:model"))
+    implementation(project(":core:data"))
 
     // Core Android dependencies
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.lifecycle.runtimeCompose)
     implementation(libs.androidx.activity.compose)
 
     // Hilt Dependency Injection
