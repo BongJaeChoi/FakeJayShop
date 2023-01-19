@@ -11,7 +11,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:name=".JayFakeShopApplication"
+        android:name="jay.bongjae.fakeshop.JayFakeShopApplication"
         android:supportsRtl="true"
         android:theme="@style/Theme.FakeJayShop"
         tools:targetApi="31">
